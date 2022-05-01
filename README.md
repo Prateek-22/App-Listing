@@ -26,4 +26,9 @@ with open('ssh_ip.csv') as input_file:
             with open("outfile.csv", 'a') as outfile:
                 outfile.write(line)
 
-        stdin, stdout, stderr = client.exec_command('del 111.csv')
+        stdin, stdout, stderr = client.exec_command('del 111.csv') 
+  ```
+    
+## [Link](https://docs.google.com/document/d/1k7fxpWDZwtPqo_2-B4cer3tLjnJlHR41NVH0OvFeclw/edit?usp=sharing) for more info
+
+
